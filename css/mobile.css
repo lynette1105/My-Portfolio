@@ -518,6 +518,7 @@ section ul li.active {
 }
 
 .description{
+    height: 100%;
     margin-left: 0px;
     display: grid;
     grid-template-columns: repeat(2, 4fr);
@@ -525,29 +526,28 @@ section ul li.active {
 }
 
 .product {
-    margin-left: -2px;
-    width: 98%;
+    margin-left: 0px;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 .itemBox {
     width: 100%;
     height: auto;
     margin: 0px;
+    align-items: center;
 }
 
-.product {
-    display: grid;
-    grid-template-columns: repeat(1, 15fr);
-    grid-gap: 10px;
-}
+
 .img {
     top: 0;
     width: 100%;
     height: auto;
     border-radius: 10px;
     border: 0.8px solid rgba(255, 255, 255, 0.425);
+    align-items: center;
 }
 .contact-info {
     width: 100%;

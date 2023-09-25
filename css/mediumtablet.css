@@ -625,6 +625,7 @@ font-size: 100%;
     margin-right: 0px;
 }
 section ul li.active {
+    height: 100%;
     background: #BC8CF2;
     color: white;
 }
@@ -656,10 +657,14 @@ section ul li.active {
 }
 
 .product {
-    margin-left: -2px;
-    width: 98%;
-    display: flex;
+    margin-left: 0px;
+    width: 100%;
     flex-wrap: wrap;
+    margin-right: 0;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 8fr);
+    grid-gap: 10px;
 }
 
 .itemBox {
@@ -668,17 +673,13 @@ section ul li.active {
     margin: 0px;
 }
 
-.product {
-    display: grid;
-    grid-template-columns: repeat(2, 8fr);
-    grid-gap: 10px;
-}
 .img {
     top: 0;
     width: 100%;
     height: auto;
     border-radius: 10px;
     border: 0.8px solid rgba(255, 255, 255, 0.425);
+    align-items: center;
 }
 .contact-info {
     width: 100%;
