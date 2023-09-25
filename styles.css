@@ -164,7 +164,7 @@ li {
 /* Home Section */
 .home1 {
     height: 800px;
-    width: 1300px;
+    width: 100%;
     margin: 0;
 }
 .hithere {
@@ -243,13 +243,13 @@ li {
 }
 
 .halfcontainer {
-    width: 800px;
+    width: 100%;
     height: 370px;
-    margin-left: 310px;
+    margin-left: 10px;
 }
 
 .onefortcontainer {
-    width: 750px;
+    width: 100%;
     height: 170px;
     margin-left: 10px;
 }
@@ -379,7 +379,7 @@ li {
 /*My Skills*/
 
 .myskills {
-    width: 1300px;
+    width: 100%;
     height: auto;
     display: block;
     font-size: 25px;
@@ -398,17 +398,18 @@ li {
 
 .skillscontainer {
     height: auto;
-    margin-left: 30px;
+    margin-left: 10px;
     display: flex;
     grid-gap: 10px;
+    align-items: center;
 }
 .half {
-    width: 600px;
+    width: 50%;
     height: auto;
 }
 
 .third {
-    width: 600px;
+    width: 100%;
     height: 60px;
     margin-top: 6px;
     line-height: 30px;
@@ -452,20 +453,22 @@ li {
     text-decoration: underline;
 }
 .myqualifications {
-    width: 1300px;
+    width: 98%;
     display: block;
     font-size: 25px;
 }
 .whole-qualificationscontainer {
-    width: 1210px;
+    width: 98%;
     height: auto;
-    margin-left: 70px;
+    margin-left: 10px;
     display: flex;
+    align-items: center;
 }
 
 .half-qualificationscontainer {
     height: 100%;
     width: 50%;
+    align-items: center;
 }
 
 .onethird-qualificationscontainer{
@@ -525,7 +528,7 @@ li {
 }
 
 .mysservices {
-    width: 1200px;
+    width: 100%;
     height: auto;
     display: block;
     font-size: 23px;
