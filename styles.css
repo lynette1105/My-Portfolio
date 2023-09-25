@@ -172,7 +172,7 @@ li {
     font-family: sans-serif;
     font-size: 25px;
     margin-top: 250px;
-    margin-left: 70px;
+    margin-left: 30px;
     display: inline-block;
 }
 
@@ -232,7 +232,7 @@ li {
 }
 
 .whole-container {
-    margin-left: 70px;
+    margin-left: 30px;
     margin-right: 70px;
 }
 
@@ -398,7 +398,7 @@ li {
 
 .skillscontainer {
     height: auto;
-    margin-left: 70px;
+    margin-left: 30px;
     display: flex;
     grid-gap: 10px;
 }
