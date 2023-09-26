@@ -180,7 +180,7 @@
     
     .iama {
         color: white;
-        font-size: 50px;
+        font-size: 40px;
         font-weight: bold;
         font-family: sans-serif;
         margin-left: 10px;
@@ -229,162 +229,6 @@
         transition: 2s;
     }
     /* About Section */
-    .about2 {
-        margin-left: 0px;
-        width: 100%;
-        height: auto;
-        padding-top: 0px;
-    }
-    
-    .whole-container {
-        width: 100%;
-        height: auto;
-        margin-left: 0px;
-    
-    }
-    .gradpic {
-        border: 7px solid #BC8CF2;
-        float: left;
-        background: #BC8CF2;
-    }
-    
-    .halfcontainer {
-        width: 61.5%;
-        height: auto;
-        margin-left: 310px;
-    }
-    
-    .onefortcontainer {
-        width: 100%;
-        height: auto;
-        margin-left: 10px;
-    }
-    
-    .myname{
-        font-family: sans-serif;
-        font-size: 25px;
-        display: inline-block;
-        color: white;
-        text-align: left;
-        margin-top: 0;
-        margin-bottom: 20px;
-    }
-    
-    .objective {
-        width: 100%;
-        font-family: sans-serif;
-        line-height: 20px;
-        display: block;
-        margin-top: 0;
-        margin-bottom: 0;
-        color: white;
-        font-size: 15px;
-    }
-    
-    .onefortocontainer {
-        width: 82%;
-        height: auto;
-        margin-left: 10px;
-        margin-top: 10px;
-        display: inline-block;
-    }
-    
-    .oneeightcontainer {
-        width: 230px;
-        height: 150px;
-        display: inline-block;
-    }
-    
-    .objective2 {
-        text-align: left;
-        font-family: sans-serif;
-        top: 0;
-        line-height: 20px;
-        display: inline-block;
-        color: white;
-        font-size: 15px;
-    }
-    
-    .oneeighttocontainer {
-        width: 500px;
-        height: auto;
-        float: right;
-        margin-left: 10px;
-    }
-    
-    .onesixtent {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 10px;
-        margin-top: -35px;
-    }
-    
-    .item {
-        background: rgba(255, 255, 255, 0.199);
-        height: 90px;
-        width: 250px;
-    }
-    
-    .item1 {
-        color: #BC8CF2;
-        text-align: center;
-        margin-bottom: 10px;
-        margin-top: 19px;
-        font-family: sans-serif;
-    }
-    
-    .underneath1 {
-        text-align: center;
-        margin-top: 10px;
-        color: white;
-        font-family: sans-serif;
-    }
-    
-    .item2 {
-        color: #BC8CF2;
-        text-align: center;
-        margin-bottom: 10px;
-        margin-top: 19px;
-        font-family: sans-serif;
-    }
-    
-    .underneath2 {
-        text-align: center;
-        margin-top: 10px;
-        color: white;
-        font-family: sans-serif;
-    }
-    
-    .item3 {
-        color: #BC8CF2;
-        text-align: center;
-        margin-bottom: 10px;
-        margin-top: 19px;
-        font-family: sans-serif;
-    }
-    
-    .underneath3 {
-        text-align: center;
-        margin-top: 10px;
-        color: white;
-        font-family: sans-serif;
-    }
-    
-    .item4 {
-        color: #BC8CF2;
-        text-align: center;
-        margin-bottom: 10px;
-        margin-top: 19px;
-        font-family: sans-serif;
-    }
-    
-    .underneath4 {
-        text-align: center;
-        margin-top: 10px;
-        color: white;
-        font-family: sans-serif;
-    }
-    
     
 
     /*My Skills*/
@@ -657,6 +501,7 @@ section ul li.active {
 }
 
 .product {
+    margin-left: 0px;
     display: grid;
     grid-template-columns: repeat(3, 5fr);
     grid-gap: 10px;

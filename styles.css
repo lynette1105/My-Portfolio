@@ -15,6 +15,8 @@ html {
 body {
     background-color: black;
     margin-right: 0;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 #mrbt {
@@ -164,7 +166,7 @@ li {
 /* Home Section */
 .home1 {
     height: 800px;
-    width: 98%;
+    width: 100%;
     margin: 0;
 }
 .hithere {
@@ -172,7 +174,7 @@ li {
     font-family: sans-serif;
     font-size: 25px;
     margin-top: 250px;
-    margin-left: 30px;
+    margin-left: 0px;
     display: inline-block;
 }
 
@@ -181,7 +183,7 @@ li {
     font-size: 50px;
     font-weight: bold;
     font-family: sans-serif;
-    margin-left: 30px;
+    margin-left: 0px;
     float: left;
 }
 
@@ -227,35 +229,32 @@ li {
 }
 /* About Section */
 .about2 {
-
-    padding-top: 60px;
+    width: 100%;
+    margin-left: 0px;
 }
-
 .whole-container {
-    width: 95%;
-    margin-left: 30px;
-    margin-right: 0px;
+    width: 100%;
+    height: auto;
+    margin-left: 0px;
+    grid-template-columns: repeat(2, 2fr);
 }
-
-.gradpic {
-    border: 7px solid #BC8CF2;
-    float: left;
-    background: #BC8CF2;
-}
-
 .halfcontainer {
-    width: 98%;
-    height: 370px;
-    margin-left: 10px;
+    width: 100%;
+    margin-left: 0px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
 }
 
-.onefortcontainer {
-    width: 98%;
-    height: 170px;
-    margin-left: 30px;
+.onefort {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
 }
 
-.myname{
+.myname {
+    width: 50%;
     font-family: sans-serif;
     font-size: 30px;
     display: inline-block;
@@ -263,128 +262,116 @@ li {
     text-align: left;
     margin-top: 0;
     margin-bottom: 20px;
+   
 }
 
 .objective {
-    width: 95%;
-    font-family: sans-serif;
-    line-height: 30px;
-    display: block;
-    margin-top: 0;
-    margin-bottom: 0;
-    color: white;
-}
+        width: 50%;
+        height: auto;
+        font-family: sans-serif;
+        line-height: 30px;
+        display: block;
+        margin-top: 0;
+        margin-bottom: 0;
+        color: white;
+        font-size: 100%;
+    }
 
-.onefortocontainer {
-    width: 58%;
-    height: 170px;
-    margin-left: 10px;
-    margin-top: 10px;
-    display: inline-block;
-}
+    .objective2 {
+        height: auto;
+        width: 100%;
+        margin-left: 0px;
+        text-align: left;
+        font-family: sans-serif;
+        top: 0;
+        line-height: 30px;
+        display: inline-block;
+        color: white;
+        font-size: 100%;
+    }
+    .oneeightcontainer {
+        width: 100%;
+        height: auto;
+    }
 
-.oneeightcontainer {
-    width: 230px;
-    height: 150px;
-    display: inline-block;
-}
-
-.objective2 {
-    text-align: left;
-    font-family: sans-serif;
-    top: 0;
-    line-height: 30px;
-    display: inline-block;
-    color: white;
-}
-
-.oneeighttocontainer {
-    width: 50%;
-    height: 180px;
-    float: right;
-    margin-left: 10px;
-}
-
-.onesixtent {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10px;
-}
-
-.item {
-    background: rgba(255, 255, 255, 0.199);
-    height: 90px;
-    width: 250px;
-}
-
-.item1 {
-    color: #BC8CF2;
-    text-align: center;
-    margin-bottom: 10px;
-    margin-top: 19px;
-    font-family: sans-serif;
-}
-
-.underneath1 {
-    text-align: center;
-    margin-top: 10px;
-    color: white;
-    font-family: sans-serif;
-}
-
-.item2 {
-    color: #BC8CF2;
-    text-align: center;
-    margin-bottom: 10px;
-    margin-top: 19px;
-    font-family: sans-serif;
-}
-
-.underneath2 {
-    text-align: center;
-    margin-top: 10px;
-    color: white;
-    font-family: sans-serif;
-}
-
-.item3 {
-    color: #BC8CF2;
-    text-align: center;
-    margin-bottom: 10px;
-    margin-top: 19px;
-    font-family: sans-serif;
-}
-
-.underneath3 {
-    text-align: center;
-    margin-top: 10px;
-    color: white;
-    font-family: sans-serif;
-}
-
-.item4 {
-    color: #BC8CF2;
-    text-align: center;
-    margin-bottom: 10px;
-    margin-top: 19px;
-    font-family: sans-serif;
-}
-
-.underneath4 {
-    text-align: center;
-    margin-top: 10px;
-    color: white;
-    font-family: sans-serif;
-}
-
-
+    .onesixtent {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+    }
+    .item {
+        background: rgba(255, 255, 255, 0.199);
+        height: 90px;
+        width: 100%;
+    }
+    .item1 {
+        color: #BC8CF2;
+        text-align: center;
+        margin-bottom: 10px;
+        margin-top: 19px;
+        font-family: sans-serif;
+    }
+    
+    .underneath1 {
+        text-align: center;
+        margin-top: 10px;
+        color: white;
+        font-family: sans-serif;
+    }
+    
+    .item2 {
+        color: #BC8CF2;
+        text-align: center;
+        margin-bottom: 10px;
+        margin-top: 19px;
+        font-family: sans-serif;
+    }
+    
+    .underneath2 {
+        text-align: center;
+        margin-top: 10px;
+        color: white;
+        font-family: sans-serif;
+    }
+    
+    .item3 {
+        color: #BC8CF2;
+        text-align: center;
+        margin-bottom: 10px;
+        margin-top: 19px;
+        font-family: sans-serif;
+    }
+    
+    .underneath3 {
+        text-align: center;
+        margin-top: 10px;
+        color: white;
+        font-family: sans-serif;
+    }
+    
+    .item4 {
+        color: #BC8CF2;
+        text-align: center;
+        margin-bottom: 10px;
+        margin-top: 19px;
+        font-family: sans-serif;
+    }
+    
+    .underneath4 {
+        text-align: center;
+        margin-top: 10px;
+        color: white;
+        font-family: sans-serif;
+    }
+    
 /*My Skills*/
 
 .myskills {
-    width: 95%;
+    width: 100%;
     height: auto;
     display: block;
     font-size: 25px;
+    margin-left: 0px;
 }
 
 #My {
@@ -399,19 +386,21 @@ li {
 }
 
 .skillscontainer {
+    width: 90%;
     height: auto;
-    margin-left: 10px;
     display: flex;
     grid-gap: 10px;
     align-items: center;
+    margin-left: 0px;
 }
 .half {
-    width: 49%;
+    width: 50%;
     height: auto;
+    margin-left: 0px;
 }
 
 .third {
-    width: 95%;
+    width: 100%;
     height: 60px;
     margin-top: 6px;
     line-height: 30px;
@@ -455,12 +444,12 @@ li {
     text-decoration: underline;
 }
 .myqualifications {
-    width: 98%;
+    width: 100%;
     display: block;
     font-size: 25px;
 }
 .whole-qualificationscontainer {
-    width: 98%;
+    width: 100%;
     height: auto;
     margin-left: 10px;
     display: flex;
