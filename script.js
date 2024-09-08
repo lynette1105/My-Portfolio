@@ -1,6 +1,6 @@
 //Auto-input//
 let type = new Typed (".auto-input", {
-    strings: ["Virtual Assistant", "Bookkeeper", "Graphic Designer", "Social Media Manager", "Video Editor", "Front-end Developer"],
+    strings: ["Virtual Assistant", "Bookkeeper", "Graphic Designer", "Video Editor", "Front-end Developer"],
     typeSpeed: 100,
     backSpeed: 100,
     loop: true,
@@ -45,7 +45,7 @@ setTimeout(function() {
 
 setTimeout(function() {
         const progressBar = document.getElementById('myProgressBar3');
-        progressBar.style.width = '80%';
+        progressBar.style.width = '95%';
     }, 1000);
 
 setTimeout(function() {
@@ -65,12 +65,12 @@ setTimeout(function() {
 
 setTimeout(function() {
         const progressBar = document.getElementById('myProgressBar7');
-        progressBar.style.width = '65%';
+        progressBar.style.width = '85%';
     }, 1000);
 
 setTimeout(function() {
         const progressBar = document.getElementById('myProgressBar8');
-        progressBar.style.width = '40%';
+        progressBar.style.width = '80%';
     }, 1000);
 
 setTimeout(function() {
